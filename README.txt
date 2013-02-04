@@ -1,1 +1,2 @@
-Insert some clever text here.\n
+#natetarrh.github.com#
+Small personal website with short bio and resume. 
