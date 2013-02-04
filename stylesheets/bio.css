@@ -1,44 +1,44 @@
 html {
-	height: 100%;
-	min-height: 100%;
+    height: 100%;
+    min-height: 100%;
 }
 
 body {
-	font: 32px/49px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-weight: 100;
-	margin: 0;
+    font: 32px/49px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 100;
+    margin: 0;
 }
 
 a {
-	font-weight: 900;
+    font-weight: 900;
 }
 
 a:link, a:visited {
-	text-decoration: none;
-	text-transform: none;
-	color: #0554db;
-	-webkit-transition:color 200ms ease-in-out;
-	-moz-transition:color 200ms ease-in-out;
-	-o-transition:color 200ms ease-in-out;
-	transition:color 200ms ease-in-out;
+    text-decoration: none;
+    text-transform: none;
+    color: #0554db;
+    -webkit-transition:color 200ms ease-in-out;
+    -moz-transition:color 200ms ease-in-out;
+    -o-transition:color 200ms ease-in-out;
+    transition:color 200ms ease-in-out;
 }
 
 a:hover {
-	color: #8180ff;
-	
+    color: #8180ff;
+    
 }
 
 #page {
-	margin-top: 100px;
-	margin-left: 24px;
-	float: left;
+    margin-top: 100px;
+    margin-left: 24px;
+    float: left;
 }
 
 #bio {
-	width: 910px;
-	margin-left: 50px;
+    width: 910px;
+    margin-left: 50px;
 }
 
 .spacer {
-	clear: left;
+    clear: left;
 }
