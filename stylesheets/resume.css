@@ -78,6 +78,7 @@ body {
 
 #pdf { 
     display: block; 
+    float: right;
     background: #666; 
     color: white; 
     padding: 6px 12px 6px 12px; 
