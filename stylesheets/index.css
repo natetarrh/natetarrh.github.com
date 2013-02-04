@@ -34,6 +34,12 @@ ul li {
     padding: 0px;
 }
 
+#name {
+    margin-top: 170px;
+    padding: 0 25px 0 25px;
+}
+
+/*expand link to fill button wrapper*/
 a {
     text-decoration: none;
     color: inherit;
