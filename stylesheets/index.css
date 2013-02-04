@@ -50,7 +50,7 @@ a {
    background-image:    -moz-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
    background-image:     -ms-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
    background-image:      -o-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
-   background-image:         linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
+   background-image:         linear-gradient(rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
    -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 1px 0px 0px 0px rgba(255,255,255,0.4)inset, -1px 0px 0px 0px rgba(255,255,255,0.4)inset;
       -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 1px 0px 0px 0px rgba(255,255,255,0.4)inset, -1px 0px 0px 0px rgba(255,255,255,0.4)inset;
            box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 1px 0px 0px 0px rgba(255,255,255,0.4)inset, -1px 0px 0px 0px rgba(255,255,255,0.4)inset;
@@ -70,7 +70,7 @@ a {
    background-image:    -moz-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
    background-image:     -ms-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
    background-image:      -o-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
-   background-image:         linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
+   background-image:         linear-gradient(rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
    -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 0px -1px 0px 0px rgba(255,255,255,0.2)inset;
       -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 0px -1px 0px 0px rgba(255,255,255,0.2)inset;
            box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 0px -1px 0px 0px rgba(255,255,255,0.2)inset;
