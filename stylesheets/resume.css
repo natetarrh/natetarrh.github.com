@@ -20,6 +20,7 @@ body {
     text-align: center;
 }
 
+/* document formatting */
 #doc {
     margin: auto;
     text-align: left;
@@ -40,17 +41,6 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
-#header h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-#header h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
 #main, #footer {
     margin-bottom: 2em;
 }
@@ -62,28 +52,16 @@ body {
     text-align: center; 
 }
 
-#me .content.title {
-    width: 80%;
-    text-align: left;
+/* text formatting */
+#header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-#me .content {
-    width: 20%;
-    text-align: right;
-}
-
-.contact-info { 
-    margin-top: 7px;
-}
-
-#pdf { 
-    display: block; 
-    float: right;
-    background: #666; 
-    color: white; 
-    padding: 6px 12px 6px 12px; 
-    margin-top: 6px; 
-    text-decoration: none; 
+#header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -119,13 +97,13 @@ li {
     border-bottom: 1px solid #ccc;
 }
 
+/* content formatting */
 .section {
     float: left;
     margin-bottom: 2em;
     padding-bottom: 2em;
     border-bottom: 1px solid #ccc;
 }
-
 
 .content.title {
     float: left;
@@ -135,6 +113,37 @@ li {
 .content {
     float: right;
     width: 80.2%;
+}
+
+.last {
+    border: none !important;
+    float: none !important; 
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#me .content.title {
+    width: 80%;
+    text-align: left;
+}
+
+#me .content {
+    width: 20%;
+    text-align: right;
+}
+
+.contact-info { 
+    margin-top: 7px;
+}
+
+#pdf { 
+    display: block; 
+    float: right;
+    background: #666; 
+    color: white; 
+    padding: 6px 12px 6px 12px; 
+    margin-top: 6px; 
+    text-decoration: none; 
 }
 
 .ed {
@@ -179,13 +188,7 @@ li {
     margin-bottom: 6px;
 }
 
-.last {
-    border: none;
-    float: none; 
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
+/* @group Clearing – taken from YUI grids.css */
 #header:after, #body:after, #footer:after, #me:after, .last:after {
     content: ".";
     display: block;
@@ -193,8 +196,4 @@ li {
     clear: both;
     visibility: hidden;
 }
-
-
-
-
 
