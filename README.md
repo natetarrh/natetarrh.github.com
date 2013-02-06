@@ -15,4 +15,4 @@ layout and formatting more consistent.
 Caleb Ogden's cssbutton.me, which provided a nice-looking button style for the 
 homepage.
 
-[1]: https://natetarrh.github.com
+[1]: http://natetarrh.github.com
