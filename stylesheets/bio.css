@@ -5,13 +5,13 @@ html {
 }
 
 body {
-    font: 32px/49px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font: 32px/49px 'Open Sans', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     font-weight: 100;
     margin: 0;
 }
 
 a {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 a:link, a:visited {
