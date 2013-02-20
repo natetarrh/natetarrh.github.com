@@ -1,5 +1,5 @@
 #natetarrh.github.com#
-Small personal website with short bio and resume. 
+Small personal website with short bio and resume. [View it live here][1].
 
 ##Assignment details##
 All assignment guidelines have been followed as specified. I took
@@ -14,3 +14,5 @@ layout and formatting more consistent.
 
 Caleb Ogden's cssbutton.me, which provided a nice-looking button style for the 
 homepage.
+
+[1]: http://natetarrh.github.com
