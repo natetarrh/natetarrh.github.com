@@ -1,11 +1,6 @@
 #natetarrh.github.com#
 Small personal website with short bio and resume. [View it live here][1].
 
-##Assignment details##
-All assignment guidelines have been followed as specified. I took
-liberties with the formatting of work experience in resume.html to better fit
-the design and layout. Assignment took approximately 4 hours to complete. 
-
 ##Special thanks to:##
 Matt Brown's sampleresumetemplate.net. His template is based on Yahoo's YUI
 CSS reset and grid framework. I did a complete CSS overhaul and made several
