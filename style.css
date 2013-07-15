@@ -34,5 +34,5 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 480px) { 
-    body { font-size: 200%; } /* increase the base font size on landscape phones */
+    body { -webkit-text-size-adjust:200%; } /* increase the base font size on landscape phones */
 }
