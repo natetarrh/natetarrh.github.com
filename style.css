@@ -29,16 +29,6 @@ a:hover {
 }
 
 #page {
-    margin-top: 50px;
-    margin-left: 24px;
+    margin: 33px 50px;
     float: left;
-}
-
-#bio {
-    max-width: 750px;
-    margin-left: 50px;
-}
-
-.spacer {
-    clear: left;
 }
