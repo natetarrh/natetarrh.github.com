@@ -33,6 +33,6 @@ a:hover {
     float: left;
 }
 
-@media (max-width: 480px) { 
+@media only screen and (max-device-width: 480px) { 
     body { font-size: 64px/98px; } /* increase the base font size on landscape phones */
 }
