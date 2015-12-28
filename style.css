@@ -1,37 +1,65 @@
-html {
+body, html {
   height: 100%;
-  min-height: 100%;
-}
-
-body {
-  font: 32px/49px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
-  font-weight: 100;
   margin: 0;
 }
 
-a {
+.wrapper {
+  display: table;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  animation: rainbow 6s infinite linear;
+  animation-delay: 2s;
+  background: -webkit-linear-gradient(0deg, #2928ff 40%, #85e367 40%, #85e367 45%, #ff52e8 45%, #ff52e8 50%, #ff0151 50%, #ff0151 55%, #f9e52e 55%, #f9e52e 60%, #2928ff 60%);
+  background-position: 325px;
+  color: #2928ff;
+  font-family: 'Asap', sans-serif;
+  font-size: 4em;
+  font-style: italic;
   font-weight: 700;
+  letter-spacing: -5px;
+  left: 50%;
+  margin-bottom: 0;
+  margin-left: -500px;
+  opacity: 1;
+  position: fixed;
+  top: 25%;
+  width: 1000px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transform: skew(-5deg);
 }
 
-a:link, a:visited {
-  text-decoration: none;
-  text-transform: none;
-  color: #0554db;
-  -webkit-transition:color 200ms ease-in-out;
-  -moz-transition:color 200ms ease-in-out;
-  -o-transition:color 200ms ease-in-out;
-  transition:color 200ms ease-in-out;
+h2 {
+  color: #ff52e8;
+  font-family: Arial Black, sans-serif;
+  left: 50%;
+  margin-left: -37.5%;
+  position: fixed;
+  width: 75%;
 }
 
-a:hover {
-  color: #8180ff;
+@keyframes rainbow {
+  0% {
+    background-position: -315px;
+  }
+  15% {
+    background-position: 325px;
+  }
 }
 
-#bio {
-  margin: 0;
-}
-
-#page {
-  margin: 33px 50px;
-  float: left;
+@media screen and (min-width: 450px) {
+  h1 {
+    font-size: 5em;
+  }
 }
