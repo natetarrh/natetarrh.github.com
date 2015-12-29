@@ -40,15 +40,6 @@ h1 {
   -webkit-transform: skew(-5deg);
 }
 
-h2 {
-  color: #ff52e8;
-  font-family: Arial Black, sans-serif;
-  left: 50%;
-  margin-left: -37.5%;
-  position: fixed;
-  width: 75%;
-}
-
 @keyframes rainbow {
   0% {
     background-position: -315px;
